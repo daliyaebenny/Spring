@@ -25,7 +25,7 @@ public class App
     	
 //    	BeanFactory is the interface used for smaller pjcts and bf is  subset of appln context 
     	ApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
-    	Vehicle vehicleObject =(Vehicle) context.getBean("vehicle");
+    	Vehicle vehicleObject =(Vehicle) context.getBean("car");
     	vehicleObject.drive();
     }
     

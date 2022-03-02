@@ -9,7 +9,7 @@ new keyword =>tight coupling
 to avoid that spring container will create an obj and inject it to our class.
 
 Configurations
- - xml
+ - xml  :changing xml =>need not compile(Appln context+xml)
  - annotations
  - java code 
  
