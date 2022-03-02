@@ -11,5 +11,8 @@
      <context:annotation-config/>
 
  <!--<bean id ="vehicle" class="com.daliya.spring_framework.Bike"></bean>-->
- 
+ <bean id ="tyre" class="com.daliya.spring_framework.Tyre">
+ <!--<property name="brand" value ="MRF"></property>-->
+ <constructor-arg value ="MRF"></constructor-arg>
+ </bean>
 </beans>

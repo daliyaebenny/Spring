@@ -10,6 +10,8 @@ to avoid that spring container will create an obj and inject it to our class.
 
 Configurations
  - xml  :changing xml =>need not compile(Appln context+xml)
+  setter injection if bean properties used 
+  construtor injection 
  - annotations
  - java code 
  
